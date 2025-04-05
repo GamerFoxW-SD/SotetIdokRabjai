@@ -1,0 +1,243 @@
+body {
+    background: black;
+    color: white;
+    font-family: monospace;
+    padding: 20px;
+  }
+  #aktak {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .akta {
+    padding: 1rem;
+    background: #222;
+    border: 1px solid #555;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  .akta:hover {
+    transform: scale(1.05);
+    background: #333;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-content {
+    background: #111;
+    padding: 2rem;
+    border: 2px solid #666;
+    max-width: 500px;
+  }
+  .close {
+    float: right;
+    cursor: pointer;
+    color: red;
+  }
+
+  /* Logo stílus */
+ 
+header span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+  }
+
+ 
+  
+  .logo {
+    width: 50px; /* A logó szélessége */
+    height: auto; /* Magasság arányosan változik */
+    border-radius: 50%; /* Ha szeretnéd, hogy a logó kör alakú legyen */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Finom fényes árnyék */
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+  }
+  
+
+  /*----*/
+  body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #0ff;
+    overflow-x: hidden;
+  }
+
+  #background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: radial-gradient(circle at center, #111 0%, #000 100%);
+  }
+
+  header {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    color: #aaa;
+  }
+
+  #aktak-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+  }
+
+  .akta {
+    width: 200px;
+    height: 120px;
+    background: rgba(0, 255, 255, 0.1);
+    border: 2px solid #0ff;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+  }
+
+  .akta:hover {
+    transform: scale(1.05);
+    background: rgba(0, 255, 255, 0.2);
+  }
+
+  #adatlap-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rejtett {
+    display: none;
+  }
+
+  .adatlap {
+    background: #111;
+    color: #0ff;
+    border: 2px solid #0ff;
+    border-radius: 15px;
+    padding: 2rem;
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: #0ff;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  
+  /*----*/
+
+  /* Akták tartalmának stílusai */
+.akta {
+    display: flex; /* A flexbox engedélyezése */
+    align-items: center; /* Vertikálisan középre igazítás */
+    gap: 10px; /* Térköz a kép és a szöveg között */
+    width: 250px;
+    padding: 10px;
+    background: #333;
+    border: 1px solid #555;
+    border-radius: 8px;
+    text-align: left; /* Szöveg balra igazítása */
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  /* Akták képeinek stílusai */
+  .akta img {
+    width: 40%; /* Kép szélessége csökkentve */
+    height: auto; /* Arányos magasság */
+    border-radius: 8px;
+    margin-left: 10px; /* Térköz a kép és a szöveg között */
+  }
+  
+  /* Akták szövegének stílusai */
+  .akta h3, .akta p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .akta h3 {
+    font-size: 1.2rem; /* Néhány cím nagyobb lehet */
+  }
+  
+  .akta p {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+
+  
+  /**/
+
+  /* Modális ablak */
+.modal-content {
+    position: relative;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%; /* Az ablak szélessége */
+    max-width: 600px; /* Maximális szélesség */
+    margin: auto; /* Középre igazítjuk */
+    overflow: hidden; /* Elrejti a túllógó tartalmat */
+  }
+  
+  /* Kép stílus a modális ablakban */
+  .modal-content img {
+    width: 100%; /* Kép kitölti az ablak szélességét */
+    max-width: 400px; /* Kép maximális szélessége */
+    height: auto; /* Arányos magasság */
+    display: block; /* Ne legyen semmilyen margó vagy felesleges tér */
+    margin: 0 auto; /* Középre igazítás */
+  }
+  
+  /* A modális ablak többi tartalmának stílusai */
+  .modal-content h2, .modal-content p {
+    color: white;
+    text-align: center;
+  }
+  
