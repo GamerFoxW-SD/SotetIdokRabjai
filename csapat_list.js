@@ -31,7 +31,7 @@ const csapatAdatok = [
         nev: "Ádám",
         alias: "Mélységjáró",
         szak: "Progi",
-        leiras: "",
+        leiras: "A Mélységjáró A matróz, akit a tenger nevelt, és akinek szíve a mélységek ritmusára dobban. Titokzatos alak, ki a sötét hullámok között bújik meg, mindörökre a víz titkainak őrzője.\n",
         kep: "kep/Melyseg.png" // Kép elérési útja
       }
   ];
