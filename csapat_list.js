@@ -3,7 +3,7 @@ const csapatAdatok = [
       nev: "Dani",
       alias: "A Fekete Lovag",
       szak: "Zümi",
-      leiras: "A Fekete Kovag \nEgykor középkori lovag volt, de egy titkos időkapun át a jelenbe került. Most informatikát tanul, és a kardját billentyűzetre cserélte. Harcmodora precíz, mint a kódja, és minden bug ellen úgy küzd, mintha sárkány lenne. A múlt árnya és a digitális jövő mestere egy személyben.",
+      leiras: "A Fekete Lovag \nEgykor középkori lovag volt, de egy titkos időkapun át a jelenbe került. Most informatikát tanul, és a kardját billentyűzetre cserélte. Harcmodora precíz, mint a kódja, és minden bug ellen úgy küzd, mintha sárkány lenne. A múlt árnya és a digitális jövő mestere egy személyben.",
       kep: "kep/lovag.png" // Kép elérési útja
     },
     {
