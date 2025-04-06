@@ -19,8 +19,9 @@ const aktakContainer = document.getElementById("aktak-container");
     akta.addEventListener("click", () => {
       modalTartalom.innerHTML = `
         <span id="bezar" class="close">✖</span>
-        <h2>${tag.nev} (${tag.alias})</h2>
-        <p><strong>Szerep:</strong> ${tag.szerep}</p>
+        <h2>${tag.nev}</h2>
+        <p><strong>Alias:</strong> ${tag.alias}</p>
+        <p><strong>Szak:</strong> ${tag.szak}</p>
         <p>${tag.leiras}</p>
         <img src="${tag.kep}" alt="${tag.nev}" />
       `;
