@@ -29,9 +29,9 @@ const csapatAdatok = [
       },*/
       {
         nev: "Ádám",
-        alias: "???",
+        alias: "Mélységjáró",
         szak: "Progi",
         leiras: "",
-        kep: "kep/hoLogo.png" // Kép elérési útja
+        kep: "kep/Melyseg.png" // Kép elérési útja
       }
   ];
